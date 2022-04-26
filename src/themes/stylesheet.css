@@ -1,0 +1,368 @@
+.navigation {
+  overflow: hidden;
+  background-color: #add8e6;
+  font-family: "Lucida Console";
+}
+
+.navigation a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navigation a.active {
+  background-color: #5f9ea0;
+  color: white;
+}
+
+.naV {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 50px;
+}
+.nav {
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 50px;
+}
+
+h1 {
+  font-family: "Lucida Console";
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem 0;
+  letter-spacing: -1px;
+  color: #708090;
+  text-shadow: 2px 2px;
+}
+h2 {
+  font-family: "Lucida Console";
+  text-align: center;
+  color: #708090;
+  text-shadow: 1px 1px;
+}
+
+header h2,
+h3 {
+  font-family: "Lucida Console";
+  text-align: center;
+  color: black;
+}
+
+.tabs {
+  background-color: #ddd;
+}
+.tabs a {
+  font-family: "Lucida Console";
+}
+
+p {
+  font-family: "Lucida Console";
+  color: black;
+}
+
+h3 {
+  font-family: "Lucida Console";
+  color: black;
+}
+
+/* form */
+form {
+  text-align: center;
+}
+
+.label {
+  display: block;
+  /* font-size: larger; */
+  color: black;
+  padding: 5px;
+}
+
+.input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Courier New";
+}
+
+.btn {
+  width: 10%;
+  background-color: #778899;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Courier New";
+}
+
+.messages {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  display: block;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+
+.success {
+  display: block;
+  background-color: lightblue;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+
+.container {
+  text-align: center;
+  font-family: "Lucida Console";
+}
+
+.center-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.invalid-feedback {
+  color: #ff0000;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.image-container {
+  text-align: center;
+  font-family: "Lucida Console";
+  padding: 25px 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.images-container {
+  text-align: center;
+  font-family: "Lucida Console";
+  padding: 25px 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-upload {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  padding: 14px 20px;
+  text-align: center;
+  margin: 8px 0;
+  cursor: pointer;
+  font-family: "Courier New";
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.SubContainer {
+  flex-direction: column;
+  align-items: center;
+}
+
+.Card {
+  padding: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Courier New";
+}
+
+/* footer */
+footer {
+  background-color: #add8e6;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed; */
+  /* padding: 10px 10px; */
+  bottom: 0%;
+  left: 0;
+  width: auto;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: "Lucida Console";
+}
+
+footer a.active {
+  background-color: #5f9ea0;
+  color: white;
+}
+
+.naV {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 50px;
+}
+.nav {
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 50px;
+}
+
+.text h3,
+p {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.button1 {
+  background-color: gray;
+  border: none;
+  color: white;
+  font-family: "Lucida Console";
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.button2 {
+  background-color: #5f9ea0;
+  border: none;
+  color: white;
+  font-family: "Lucida Console";
+  border-radius: 4px;
+  padding: 10px;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  width: 100px;
+}
+
+/* table */
+.items {
+  font-family: "Lucida Console";
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.items td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.items th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #add8e6;
+  color: white;
+}
+
+/* responsive*/
+/* * {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width: 800px) {
+  
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+ 
+  .menu,
+  .main,
+  .right {
+    width: 100%;
+  }
+} */
